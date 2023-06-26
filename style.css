@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 48px;
+}
+
+/* svg {
+    background-color: white;
+} */
+
+#tooltip{
+    margin-top: 10px;
+    color: blue;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 100;
+}
+
+.bar:hover {
+    fill: blue;
+}
